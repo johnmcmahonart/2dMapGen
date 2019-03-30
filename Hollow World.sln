@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hollow World.CSharp.Plugins", "Hollow World.CSharp.Plugins.csproj", "{EB8ECD82-473C-0AA4-920A-65227FC4634C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hollow World.CSharp", "Hollow World.CSharp.csproj", "{1FBBBCFC-3AB6-5D09-28CE-44AC13E24F50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hollow World.CSharp.Editor", "Hollow World.CSharp.Editor.csproj", "{4FC633FE-B969-8BC6-6A08-C64E41E1D8E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB8ECD82-473C-0AA4-920A-65227FC4634C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB8ECD82-473C-0AA4-920A-65227FC4634C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB8ECD82-473C-0AA4-920A-65227FC4634C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB8ECD82-473C-0AA4-920A-65227FC4634C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FBBBCFC-3AB6-5D09-28CE-44AC13E24F50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FBBBCFC-3AB6-5D09-28CE-44AC13E24F50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FBBBCFC-3AB6-5D09-28CE-44AC13E24F50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FBBBCFC-3AB6-5D09-28CE-44AC13E24F50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FC633FE-B969-8BC6-6A08-C64E41E1D8E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FC633FE-B969-8BC6-6A08-C64E41E1D8E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FC633FE-B969-8BC6-6A08-C64E41E1D8E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FC633FE-B969-8BC6-6A08-C64E41E1D8E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

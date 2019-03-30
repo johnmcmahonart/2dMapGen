@@ -1,0 +1,1 @@
+added biomeMap, moisture and heat types. Map Finished

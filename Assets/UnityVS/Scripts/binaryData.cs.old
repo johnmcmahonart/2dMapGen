@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Runtime.Serialization.Formatters.Binary;
+using System.IO;
+using System.Runtime.Serialization;
+    public static class binaryData
+{
+    public static void write(string filename, heightMapSettings settings);
+    {
+    Stream stream = File.Open(filename, FileMode.Create);
+    
+    }
+
+
+}
+

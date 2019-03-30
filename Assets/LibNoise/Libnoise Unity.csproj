@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5FF0C673-A846-48DE-A9F2-B6DDCDBD61F4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ClassLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>Libnoise_Unity</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LibNoise.Unity-master\COPYING.LESSER.txt" />
+    <Content Include="LibNoise.Unity-master\COPYING.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LibNoise.Unity-master\COPYING.LESSER.txt.meta" />
+    <None Include="LibNoise.Unity-master\COPYING.txt.meta" />
+    <None Include="LibNoise.Unity-master\Generator.meta" />
+    <None Include="LibNoise.Unity-master\Generator\Billow.cs.meta" />
+    <None Include="LibNoise.Unity-master\Generator\Checker.cs.meta" />
+    <None Include="LibNoise.Unity-master\Generator\Const.cs.meta" />
+    <None Include="LibNoise.Unity-master\Generator\Cylinders.cs.meta" />
+    <None Include="LibNoise.Unity-master\Generator\Perlin.cs.meta" />
+    <None Include="LibNoise.Unity-master\Generator\RidgedMultifractal.cs.meta" />
+    <None Include="LibNoise.Unity-master\Generator\Spheres.cs.meta" />
+    <None Include="LibNoise.Unity-master\Generator\Voronoi.cs.meta" />
+    <None Include="LibNoise.Unity-master\GradientPresets.cs.meta" />
+    <None Include="LibNoise.Unity-master\ModuleBase.cs.meta" />
+    <None Include="LibNoise.Unity-master\Noise2D.cs.meta" />
+    <None Include="LibNoise.Unity-master\Operator.meta" />
+    <None Include="LibNoise.Unity-master\Operator\Abs.cs.meta" />
+    <None Include="LibNoise.Unity-master\Operator\Add.cs.meta" />
+    <None Include="LibNoise.Unity-master\Operator\Blend.cs.meta" />
+    <None Include="LibNoise.Unity-master\Operator\Cache.cs.meta" />
+    <None Include="LibNoise.Unity-master\Operator\Clamp.cs.meta" />
+    <None Include="LibNoise.Unity-master\Operator\Curve.cs.meta" />
+    <None Include="LibNoise.Unity-master\Operator\Displace.cs.meta" />
+    <None Include="LibNoise.Unity-master\Operator\Exponent.cs.meta" />
+    <None Include="LibNoise.Unity-master\Operator\Invert.cs.meta" />
+    <None Include="LibNoise.Unity-master\Operator\Max.cs.meta" />
+    <None Include="LibNoise.Unity-master\Operator\Min.cs.meta" />
+    <None Include="LibNoise.Unity-master\Operator\Multiply.cs.meta" />
+    <None Include="LibNoise.Unity-master\Operator\Power.cs.meta" />
+    <None Include="LibNoise.Unity-master\Operator\Rotate.cs.meta" />
+    <None Include="LibNoise.Unity-master\Operator\Scale.cs.meta" />
+    <None Include="LibNoise.Unity-master\Operator\ScaleBias.cs.meta" />
+    <None Include="LibNoise.Unity-master\Operator\Select.cs.meta" />
+    <None Include="LibNoise.Unity-master\Operator\Subtract.cs.meta" />
+    <None Include="LibNoise.Unity-master\Operator\Terrace.cs.meta" />
+    <None Include="LibNoise.Unity-master\Operator\Translate.cs.meta" />
+    <None Include="LibNoise.Unity-master\Operator\Turbulence.cs.meta" />
+    <None Include="LibNoise.Unity-master\Properties.meta" />
+    <None Include="LibNoise.Unity-master\Properties\AssemblyInfo.cs.meta" />
+    <None Include="LibNoise.Unity-master\README.md" />
+    <None Include="LibNoise.Unity-master\README.md.meta" />
+    <None Include="LibNoise.Unity-master\Utils.cs.meta" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="LibNoise.Unity-master\Generator\Billow.cs" />
+    <Compile Include="LibNoise.Unity-master\Generator\Checker.cs" />
+    <Compile Include="LibNoise.Unity-master\Generator\Const.cs" />
+    <Compile Include="LibNoise.Unity-master\Generator\Cylinders.cs" />
+    <Compile Include="LibNoise.Unity-master\Generator\Perlin.cs" />
+    <Compile Include="LibNoise.Unity-master\Generator\RidgedMultifractal.cs" />
+    <Compile Include="LibNoise.Unity-master\Generator\Spheres.cs" />
+    <Compile Include="LibNoise.Unity-master\Generator\Voronoi.cs" />
+    <Compile Include="LibNoise.Unity-master\GradientPresets.cs" />
+    <Compile Include="LibNoise.Unity-master\ModuleBase.cs" />
+    <Compile Include="LibNoise.Unity-master\Noise2D.cs" />
+    <Compile Include="LibNoise.Unity-master\Operator\Abs.cs" />
+    <Compile Include="LibNoise.Unity-master\Operator\Add.cs" />
+    <Compile Include="LibNoise.Unity-master\Operator\Blend.cs" />
+    <Compile Include="LibNoise.Unity-master\Operator\Cache.cs" />
+    <Compile Include="LibNoise.Unity-master\Operator\Clamp.cs" />
+    <Compile Include="LibNoise.Unity-master\Operator\Curve.cs" />
+    <Compile Include="LibNoise.Unity-master\Operator\Displace.cs" />
+    <Compile Include="LibNoise.Unity-master\Operator\Exponent.cs" />
+    <Compile Include="LibNoise.Unity-master\Operator\Invert.cs" />
+    <Compile Include="LibNoise.Unity-master\Operator\Max.cs" />
+    <Compile Include="LibNoise.Unity-master\Operator\Min.cs" />
+    <Compile Include="LibNoise.Unity-master\Operator\Multiply.cs" />
+    <Compile Include="LibNoise.Unity-master\Operator\Power.cs" />
+    <Compile Include="LibNoise.Unity-master\Operator\Rotate.cs" />
+    <Compile Include="LibNoise.Unity-master\Operator\Scale.cs" />
+    <Compile Include="LibNoise.Unity-master\Operator\ScaleBias.cs" />
+    <Compile Include="LibNoise.Unity-master\Operator\Select.cs" />
+    <Compile Include="LibNoise.Unity-master\Operator\Subtract.cs" />
+    <Compile Include="LibNoise.Unity-master\Operator\Terrace.cs" />
+    <Compile Include="LibNoise.Unity-master\Operator\Translate.cs" />
+    <Compile Include="LibNoise.Unity-master\Operator\Turbulence.cs" />
+    <Compile Include="LibNoise.Unity-master\Properties\AssemblyInfo.cs" />
+    <Compile Include="LibNoise.Unity-master\Utils.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

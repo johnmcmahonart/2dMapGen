@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2dMapGen.Plugins", "2dMapGen.Plugins.csproj", "{873ED56E-2E55-914D-2C03-191781373274}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2dMapGen", "2dMapGen.csproj", "{EB356D96-14F7-3706-A157-EBE28E072C56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2dMapGen.Editor", "2dMapGen.Editor.csproj", "{3FC1A472-4C30-994D-1DB6-FE4A90FF8E96}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{873ED56E-2E55-914D-2C03-191781373274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{873ED56E-2E55-914D-2C03-191781373274}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{873ED56E-2E55-914D-2C03-191781373274}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{873ED56E-2E55-914D-2C03-191781373274}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB356D96-14F7-3706-A157-EBE28E072C56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB356D96-14F7-3706-A157-EBE28E072C56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB356D96-14F7-3706-A157-EBE28E072C56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB356D96-14F7-3706-A157-EBE28E072C56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FC1A472-4C30-994D-1DB6-FE4A90FF8E96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FC1A472-4C30-994D-1DB6-FE4A90FF8E96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FC1A472-4C30-994D-1DB6-FE4A90FF8E96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FC1A472-4C30-994D-1DB6-FE4A90FF8E96}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
